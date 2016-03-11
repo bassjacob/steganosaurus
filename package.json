@@ -2,10 +2,11 @@
   "name": "steganosaurus",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/exports.js",
   "scripts": {
     "test": "mocha",
-    "test:watch": "nodemon -w src -w test -x npm test"
+    "test:watch": "nodemon -w src -w test -x npm test",
+    "prepublish": "babel -d lib src"
   },
   "keywords": [],
   "author": "",
