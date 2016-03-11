@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:watch": "nodemon -w src -w test -x npm test"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "chai-as-promised": "^5.2.0",
     "mocha": "^2.4.5",
     "nock": "^7.2.2",
+    "nodemon": "^1.9.1",
     "proxyquire": "^1.7.4",
     "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0"
