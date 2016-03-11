@@ -22,5 +22,8 @@
     "proxyquire": "^1.7.4",
     "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "pngjs": "^2.2.0"
   }
 }
